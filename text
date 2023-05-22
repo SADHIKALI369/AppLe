@@ -1,0 +1,31 @@
+rgba(22, 22, 23, .8);
+--r-globalnav-color-hover: #FFFFFF;
+background: var(--globalnav-background);
+#333336;
+#000000;
+
+body {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 29, 31);
+  font-style: normal;
+h1
+  height: 1px;font-weight: 600;
+  color: #1d1d1f;
+  
+  class
+
+  .visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;

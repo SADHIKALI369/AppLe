@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+.navlist ul{
+  position: relative;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 13px;
+}
+.navlist a
+{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.navabar{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 2px 2px 5px black;
+  width: 100%;
+  height: 30px;
+  background:#333336;
+  z-index: 2;
+  top: 0;
+}
+.applelogo img{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 170px;
+  top: 9px;
+}
+.icon1{
+  position: absolute;
+  left: 1080px;
+  top: 10px;
+  font-size: 20px;
+}
+.icon2{
+  position: absolute;
+  left: 1130px;
+  top: 9px;
+  font-size: 20px;
+}
+.iphone14pro img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+ 
+}
+.headway h1{
+  color:#FFFFFF;
+  font-size: 55px;
+  position: absolute;
+  top: 75px;
+  left: 450px;
+  word-spacing: -10px;
+  font-weight: 600;
+  z-index: 1;
+}
+.headway h4{
+  position: absolute;
+  top: 140px;
+  color: #FFFFFF;
+  left: 550px;
+  font-size: 30px;
+  font-weight: 400;
+  z-index: 1;
+}
+.iphone14 img{
+  width: 100%;
+  position: absolute;
+  top: 550px;
+}
+.iphone14head
+{
+  position: absolute;
+  top: 650px;
+  text-align: center;
+  left: 500px;
+}
+.iphone14head h1{
+  font-size: 55px;
+  font-weight: 600;
+}
+.iphone14head p{
+  font-size: 30px;
+}
+.watch8 img{
+  position: absolute;
+  width: 100%;
+  top: 1200px;
+}
+.Watchlogo img{
+  position: absolute;
+  top: 1270px;
+  left: 530px;
+  width: 190px;
+}
+.Watchlogo h1{
+  position: absolute;
+  top: 1360px;
+  color: #FFFFFF;
+  font-size: 25px;
+  left: 510px;
+  font-weight: 400;
+}
+.iphoneworld{
+  width: 100%;
+  height: 100%;
+}
+.iphonex{
+  position: absolute;
+  top: 1800px;
+  left: 10px;
+  right: 10px;
+}
+.iphonex {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "I1 I2"
+    "I3 I4"
+    "I5 I6";
+}
+.pad1 {
+  grid-area: I1;
+}
+.pad2 {
+  grid-area: I2;
+}
+.pad3 {
+  grid-area: I3;
+}
+.pad4 {
+  grid-area: I4;
+}
+.pad5 {
+  grid-area: I5;
+}
+.pad6 {
+  grid-area: I6;
+}
+
+.tradein img{
+  position: absolute;
+  top: 1860px;
+  left: 235px;
+  width: 160px;
+}
+.tradein h4{
+  position: absolute;
+  top: 1910px;
+  font-weight: 400;
+  left: 180px;
+  font-size: 20px;
+}
+.wwdc23 img{
+  position: absolute;
+  top: 2210px;
+  left: 840px;
+  width: 220px;
+}
+.wwdc23 h4{
+  position: absolute;
+    top: 2157px;
+    left: 657px;
+    color: #FFFFFF;
+    padding: 110px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.wwdc23 h4{
+  justify-content: center;
+  text-align: center;
+}
+.photo3 h2{
+  position: absolute;
+  top: 2449px;
+  left: 270px;
+  font-size: 40px;
+  color: #000000; 
+}
+.photo3 p{
+  position: absolute;
+  top: 2500px;
+  left: 190px;
+  font-size: 20px;
+}
+.photo4 h2{
+  position: absolute;
+  top: 2449px;
+  left: 835px;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.photo4 p{
+  position: absolute;
+  top: 2500px;
+  left: 790px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.photo5{
+  position: absolute;
+  top: 3130px;
+  left: 250px;
+}
+.photo5 img{
+  width: 140px;
+}
+.photo5 h4{
+  font-weight: 200;
+  font-size: 20px;
+}
+.photo5 h4{
+  position: relative;
+  top: 13px;
+  right: 5px;
+}
+.photo6 {
+  position: absolute;
+  top: 3130px;
+  left: 850px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.photo6 h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+.photo6 h4{
+  font-size: 20px;
+  font-weight: 400;
+}
